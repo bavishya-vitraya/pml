@@ -1,0 +1,3338 @@
+{
+  "id": "NIVABUPA_REASSURE",
+  "status": "active",
+  "name": "Niva Bupa Reasssure Insurance Plan",
+  "defaultWaitingPeriod": "30 days",
+  "defaultWaitingPeriodForPEDs": "36 months",
+  "benefitDetails": {
+    "INPATIENT": [
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_001"
+        ],
+        "benefitName": "Room Rent",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_002"
+        ],
+        "benefitName": "Room Boarding And Nursing Charges",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_002"
+        ],
+        "benefitName": "Intravenous Fluids",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "30233N1"
+        ],
+        "benefitName": "Blood Transfusion",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_007"
+        ],
+        "benefitName": "Injection Administration Charges",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_003"
+        ],
+        "benefitName": "Allowable Consumables And / Or Enteral Feedings",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_003"
+        ],
+        "benefitName": "Operation Theatre Charges",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_008"
+        ],
+        "benefitName": "Cost Of Prosthetics",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_004"
+        ],
+        "benefitName": "Intensive Care Unit Charges",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_005"
+        ],
+        "benefitName": "Pre Hospitalization Medical Expenses",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_006"
+        ],
+        "benefitName": "Post Hospitalization Medical Expense",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "INVESTIGATION",
+        "benefitCodes": [
+          "87181-4"
+        ],
+        "benefitName": "Uterine Artery Embolization And Hifu (High Intensity Focused Ultrasound)",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "09BM4ZZ"
+        ],
+        "benefitName": "Balloon Sinuplasty",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "00HV4MZ"
+        ],
+        "benefitName": "Deep Brain Stimulation",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "3E03305"
+        ],
+        "benefitName": "Oral Chemotherapy",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "XW033C7"
+        ],
+        "benefitName": "Immunotherapy",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_001"
+        ],
+        "benefitName": "Intra Vitreal Injections",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "D020JZZ"
+        ],
+        "benefitName": "Stereotactic Radio Surgeries",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "B30LZZ"
+        ],
+        "benefitName": "Bronchical Thermoplasty",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0VT08ZZ"
+        ],
+        "benefitName": "Vaporisation Of The Prostrate (Green Laser Treatment Or Holmium Laser Treatment)",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "INVESTIGATION",
+        "benefitCodes": [
+          "95940"
+        ],
+        "benefitName": "Ionm - (Intra Operative Neuro Monitoring)",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "07DR3ZX"
+        ],
+        "benefitName": "Stem Cell Therapy",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "F07K6YZ"
+        ],
+        "benefitName": "Physiotherapy Treatments",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_015"
+        ],
+        "benefitName": "Second Medical Opinion",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_057"
+        ],
+        "benefitName": "Shared Accommodation Cash Benefit",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_058"
+        ],
+        "benefitName": "Hospital Cash",
+        "covered": "Y"
+      },
+      {
+        "limits": [
+          {
+            "limitType": "CLAIM",
+            "limitAmountExpression": "100000",
+            "limitCondition": "true"
+          }
+        ],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "8E0W4CZ"
+        ],
+        "benefitName": "Robotic Surgeries",
+        "covered": "Y"
+      },
+      {
+        "limits": [
+          {
+            "limitType": "CLAIM",
+            "limitAmountExpression": "policy_sum_insured",
+            "limitCondition": "claim_submission_type = 'CASHLESS'"
+          }
+        ],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0VT08ZZ"
+        ],
+        "benefitName": "Robotic Total Radical Prostatectomy",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "02120Z9",
+          "021009W",
+          "06BQ0ZZ",
+          "5A1221Z"
+        ],
+        "benefitName": "Robotic Cardiac Surgeries",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0TT10ZZ"
+        ],
+        "benefitName": "Robotic Partial Nephrectomy",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0HBCXZZ"
+        ],
+        "benefitName": "Robotic Surgeries For Malignancies",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0TY10Z0"
+        ],
+        "benefitName": "Living Organ Donors Medical Treatment",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "SG_07DR3ZX"
+        ],
+        "benefitName": "Stem Cell Donation",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_087"
+        ],
+        "benefitName": "Pre Hospitalization Medical Expenses For Organ Donor",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_088"
+        ],
+        "benefitName": "Post Hospitalization Medical Expenses For Organ Donor",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_93"
+        ],
+        "benefitName": "Medical Expenses Of The Organ Donor",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0TY00Z0"
+        ],
+        "benefitName": "Transplant Of Any Organ Or Tissue (Experimental)",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_014"
+        ],
+        "benefitName": "Expense Related To Organ Transportation Or Preservation",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_013"
+        ],
+        "benefitName": "Treatment To The Donor As A Consequence Of Harvesting",
+        "covered": "N"
+      },
+      {
+        "limits": [
+          {
+            "limitType": "CLAIM",
+            "limitAmountExpression": "2000",
+            "limitCondition": "true"
+          }
+        ],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_011"
+        ],
+        "benefitName": "Ambulance Charges",
+        "covered": "Y"
+      },
+      {
+        "limits": [
+          {
+            "limitType": "CLAIM",
+            "limitAmountExpression": "policy_sum_insured",
+            "limitCondition": "claim_submission_type = 'CASHLESS'"
+          },
+          {
+              "limitType": "CLAIM",
+              "limitAmountExpression": "250000",
+              "limitCondition": "claim_submission_type = 'REIMBURSEMENT'"
+          }
+        ],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_012"
+        ],
+        "benefitName": "Air Ambulance Charges",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "O10.413"
+        ],
+        "benefitName": "Pre-Existing Diseases",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "F07Z5ZZ"
+        ],
+        "benefitName": "Rest Cure",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "F07L0ZZ"
+        ],
+        "benefitName": "Rehabilitation",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "SG006"
+        ],
+        "benefitName": "Respite Care",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_090"
+        ],
+        "benefitName": "Austodial Care",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_022"
+        ],
+        "benefitName": "Any Services For People Who Are Terminally Ill To Address Physical, Social, Emotional And Spiritual Needs.",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "E66.9"
+        ],
+        "benefitName": "Obesity",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "Z71.3"
+        ],
+        "benefitName": "Weight Control",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0W4N071"
+        ],
+        "benefitName": "Change-Of-Gender Treatments",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "090K0ZZ"
+        ],
+        "benefitName": "Cosmetic Or Plastic Surgery",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "Y93.6"
+        ],
+        "benefitName": "Hazardous Or Adventure Sports",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_092"
+        ],
+        "benefitName": "Breach Of Law",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "HZ2ZZZZ"
+        ],
+        "benefitName": "Treatment For Alcoholism, Drug & Addictive Condition",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "3E043GQ"
+        ],
+        "benefitName": "Nature Cure Hydros",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_023"
+        ],
+        "benefitName": "Services As Spas Or Similar Establishments",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_055"
+        ],
+        "benefitName": "Dietary Supplements And Substances",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "H52.7"
+        ],
+        "benefitName": "Refractive Error",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "Z71.1"
+        ],
+        "benefitName": "Unproven Diagnosis",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "10E0XZZ"
+        ],
+        "benefitName": "Complicated Delivery",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_044"
+        ],
+        "benefitName": "Expenses Towards Miscarriage",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "10A07ZW"
+        ],
+        "benefitName": "Medical Termination of Pregnancy",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_054"
+        ],
+        "benefitName": "Rmo Charges,Surcharges And Service Charges Levied By The Hospital",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "Z11.3"
+        ],
+        "benefitName": "Sexually Transmitted Infections & Diseases",
+        "covered": "Exclusion"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "G47.9"
+        ],
+        "benefitName": "Sleep Disorders",
+        "covered": "Exclusion"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "F82"
+        ],
+        "benefitName": "Neuro-Developmental Delays And Disorders",
+        "covered": "Exclusion"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "F79"
+        ],
+        "benefitName": "Mental Retardation",
+        "covered": "Exclusion"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0VTTXZZ"
+        ],
+        "benefitName": "Circumcision Treatment",
+        "covered": "Exclusion"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "SG007"
+        ],
+        "benefitName": "External Congenital Anomaly Treatments",
+        "covered": "Exclusion"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "SG008"
+        ],
+        "benefitName": "Conflict & Disaster Treatements",
+        "covered": "Exclusion"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "SG009"
+        ],
+        "benefitName": "Artificial Life Maintenance Treatments",
+        "covered": "Exclusion"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_056"
+        ],
+        "benefitName": "Multifocal Lens And Ambulatory Devices",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0CDWXZ2"
+        ],
+        "benefitName": "Dental/Oral Treatments",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_024"
+        ],
+        "benefitName": "Baby Food",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_025"
+        ],
+        "benefitName": "Baby Utilities Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_026"
+        ],
+        "benefitName": "Beauty Services",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_027"
+        ],
+        "benefitName": "Belts/ Braces",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_028"
+        ],
+        "benefitName": "Buds",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_006"
+        ],
+        "benefitName": "Cold Pack/Hot Pack",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_007"
+        ],
+        "benefitName": "Carry Bags",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_029"
+        ],
+        "benefitName": "Email / Internet Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_94"
+        ],
+        "benefitName": "Food Charges (Other Than Patient'S Diet Provided By Hospital)",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_009"
+        ],
+        "benefitName": "Leggings",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_030"
+        ],
+        "benefitName": "Laundry Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_011"
+        ],
+        "benefitName": "Mineral Water",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_010"
+        ],
+        "benefitName": "Sanitary Pad",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_031"
+        ],
+        "benefitName": "Telephone Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_032"
+        ],
+        "benefitName": "Guest Services",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_012"
+        ],
+        "benefitName": "Crepe Bandage",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_013"
+        ],
+        "benefitName": "Diaper Of Any Type",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_014"
+        ],
+        "benefitName": "Eyelet Collar",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_015"
+        ],
+        "benefitName": "Slings",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_033"
+        ],
+        "benefitName": "Blood Grouping And Cross Matching Of Donors Samples",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_034"
+        ],
+        "benefitName": "Service Charges Where Nursing Charge Also Charged",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_035"
+        ],
+        "benefitName": "Television Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_036"
+        ],
+        "benefitName": "Surcharges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_037"
+        ],
+        "benefitName": "Attendant Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_038"
+        ],
+        "benefitName": "Extra Diet Of Patient (Other Than That Which Forms Part Of Bed Charge)",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_016"
+        ],
+        "benefitName": "Birth Certificate",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_039"
+        ],
+        "benefitName": "Certificate Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_040"
+        ],
+        "benefitName": "Courier Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_041"
+        ],
+        "benefitName": "Conveyance Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_017"
+        ],
+        "benefitName": "Medical Certificate",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_018"
+        ],
+        "benefitName": "Medical Records",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_042"
+        ],
+        "benefitName": "Photocopies Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_043"
+        ],
+        "benefitName": "Mortuary Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_045"
+        ],
+        "benefitName": "Walking Aids Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_019"
+        ],
+        "benefitName": "Oxygen Cylinder (For Usage Outside The Hospital)",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_046"
+        ],
+        "benefitName": "Spacer",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_042"
+        ],
+        "benefitName": "Spirometre",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_043"
+        ],
+        "benefitName": "Nebulizer Kit",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_044"
+        ],
+        "benefitName": "Steam Inhaler",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_045"
+        ],
+        "benefitName": "Armsling",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_035"
+        ],
+        "benefitName": "Thermometer",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_036"
+        ],
+        "benefitName": "Cervical Collar",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_037"
+        ],
+        "benefitName": "Splint",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_038"
+        ],
+        "benefitName": "Diabetic Foot Wear",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_039"
+        ],
+        "benefitName": "Knee Braces (Long/ Short/ Hinged)",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_040"
+        ],
+        "benefitName": "Knee Immobilizer/Shoulder Immobilizer",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_041"
+        ],
+        "benefitName": "Lumbo Sacral Belt",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_047"
+        ],
+        "benefitName": "Nimbus Bed Or Water Or Air Bed Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_048"
+        ],
+        "benefitName": "Ambulance Collar",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_049"
+        ],
+        "benefitName": "Ambulance Equipment",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_050"
+        ],
+        "benefitName": "Abdominal Binder",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_051"
+        ],
+        "benefitName": "Private Nurses Charges- Special Nursing Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_020"
+        ],
+        "benefitName": "Sugar Free Tablets",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_021"
+        ],
+        "benefitName": "Creams Powders Lotions (Toiletries Are Not Payable,Only Prescribed Medical Pharmaceuticals Payable)",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_022"
+        ],
+        "benefitName": "Ecg Electrodes",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_023"
+        ],
+        "benefitName": "Gloves",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_024"
+        ],
+        "benefitName": "Nebulisation Kit",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_025"
+        ],
+        "benefitName": "Any Kit With No Details Mentioned [Delivery Kit,Orthokit, Recovery Kit, Etc]",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_026"
+        ],
+        "benefitName": "Kidney Tray",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_027"
+        ],
+        "benefitName": "Mask",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_028"
+        ],
+        "benefitName": "Ounce Glass",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_029"
+        ],
+        "benefitName": "Oxygen Mask",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_030"
+        ],
+        "benefitName": "Pelvic Traction Belt",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_031"
+        ],
+        "benefitName": "Pan Can",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_032"
+        ],
+        "benefitName": "Trolly Cover",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_033"
+        ],
+        "benefitName": "Urometer, Urine Jug",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_052"
+        ],
+        "benefitName": "Ambulance",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_034"
+        ],
+        "benefitName": "Vasofix Safety",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_059"
+        ],
+        "benefitName": "Baby Charges (Unless Specified/Indicated)",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_049"
+        ],
+        "benefitName": "Hand Wash",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_050"
+        ],
+        "benefitName": "Shoe Cover",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_051"
+        ],
+        "benefitName": "Caps",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_060"
+        ],
+        "benefitName": "Cradle Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_052"
+        ],
+        "benefitName": "Comb",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_046"
+        ],
+        "benefitName": "Eau-De-Cologne / Room Freshners 8 Foot Cover",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_047"
+        ],
+        "benefitName": "Gown",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_048"
+        ],
+        "benefitName": "Slippers",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_061"
+        ],
+        "benefitName": "Tissue Paper 25 Clean Sheet",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_053"
+        ],
+        "benefitName": "Tooth Paste",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_054"
+        ],
+        "benefitName": "Tooth Brush",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_055"
+        ],
+        "benefitName": "Bed Pan",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_056"
+        ],
+        "benefitName": "Face Mask",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_057"
+        ],
+        "benefitName": "Flexi Mask",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_058"
+        ],
+        "benefitName": "Hand Holder",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_059"
+        ],
+        "benefitName": "Sputum Cup",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_060"
+        ],
+        "benefitName": "Disinfectant Lotions",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_061"
+        ],
+        "benefitName": "Luxury Tax",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_062"
+        ],
+        "benefitName": "Hvac",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_062"
+        ],
+        "benefitName": "House Keeping Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_063"
+        ],
+        "benefitName": "Air Conditioner Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_064"
+        ],
+        "benefitName": "Im Iv Injection Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_063"
+        ],
+        "benefitName": "Blanket/Warmer Blanket",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_065"
+        ],
+        "benefitName": "Admission Kit",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_066"
+        ],
+        "benefitName": "Diabetic Chart Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_067"
+        ],
+        "benefitName": "Documentation Charges / Administrative Expenses / Discharge Procedure Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_068"
+        ],
+        "benefitName": "Daily Chart Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_069"
+        ],
+        "benefitName": "Entrance Pass / Visitors Pass Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_070"
+        ],
+        "benefitName": "Expenses Related To Prescription On Discharge",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_071"
+        ],
+        "benefitName": "File Opening Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_072"
+        ],
+        "benefitName": "Incidental Expenses / Misc. Charges (Not Explained)",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_089"
+        ],
+        "benefitName": "Patient Identification Band / Name Tag",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_073"
+        ],
+        "benefitName": "Pulseoxymeter Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_064"
+        ],
+        "benefitName": "Hair Removal Cream",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_074"
+        ],
+        "benefitName": "Disposables Razors Charges (For Site Preparations)",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_065"
+        ],
+        "benefitName": "Eye Pad",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_066"
+        ],
+        "benefitName": "Eye Sheild",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_067"
+        ],
+        "benefitName": "Camera Cover",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_075"
+        ],
+        "benefitName": "Dvd, Cd Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_068"
+        ],
+        "benefitName": "Gause Soft",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_069"
+        ],
+        "benefitName": "Gauze",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_076"
+        ],
+        "benefitName": "Ward And Theatre Booking Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_077"
+        ],
+        "benefitName": "Arthroscopy And Endoscopy Instruments",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_078"
+        ],
+        "benefitName": "Microscope Cover",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_070"
+        ],
+        "benefitName": "Surgical Blades, Harmonicscalpel,Shaver",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_071"
+        ],
+        "benefitName": "Surgical Drill",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_091"
+        ],
+        "benefitName": "Eye Kit",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_072"
+        ],
+        "benefitName": "Eye Drape",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_073"
+        ],
+        "benefitName": "X-Ray Film",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_079"
+        ],
+        "benefitName": "Boyles Apparatus Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_092"
+        ],
+        "benefitName": "Cotton",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_074"
+        ],
+        "benefitName": "Cotton Bandage",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_075"
+        ],
+        "benefitName": "Surgical Tape",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_076"
+        ],
+        "benefitName": "Apron",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_077"
+        ],
+        "benefitName": "Torniquet",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_078"
+        ],
+        "benefitName": "Orthobundle, Gynaec Bundle",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_080"
+        ],
+        "benefitName": "Admission/Registration Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_083"
+        ],
+        "benefitName": "Hospitalisation For Evaluation/ Diagnostic Purpose",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_079"
+        ],
+        "benefitName": "Urine Container",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_081"
+        ],
+        "benefitName": "Blood Reservation Charges And Ante Natal Booking Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_080"
+        ],
+        "benefitName": "Bipap Machine",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_081"
+        ],
+        "benefitName": "Cpap/ Capd Equipments",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_082"
+        ],
+        "benefitName": "Infusion Pump– Cost",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_083"
+        ],
+        "benefitName": "Hydrogen Peroxide\\Spirit\\ Disinfectants Etc",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_082"
+        ],
+        "benefitName": "Nutrition Planning Charges - Dietician Charges- Diet Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_084"
+        ],
+        "benefitName": "Hiv Kit",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_085"
+        ],
+        "benefitName": "Antiseptic Mouthwash",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_086"
+        ],
+        "benefitName": "Lozenges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_087"
+        ],
+        "benefitName": "Mouth Paint",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "SERVICE",
+        "benefitCodes": [
+          "SER_084"
+        ],
+        "benefitName": "Vaccination Charges",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_088"
+        ],
+        "benefitName": "Alcohol Swabes",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_089"
+        ],
+        "benefitName": "Scrub Solution / Sterillium",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_093"
+        ],
+        "benefitName": "Glucometer & Strips",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PRODUCT",
+        "benefitCodes": [
+          "PRO_090"
+        ],
+        "benefitName": "Urine Bag",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "Z79.890"
+        ],
+        "benefitName": "Hormone Replacement",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "10D00Z1"
+        ],
+        "benefitName": "Cesarean Delivery",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "SG_O80"
+        ],
+        "benefitName": "Normal Delivery",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "10D28ZZ"
+        ],
+        "benefitName": "Ectopic Pregnancy",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [
+          {
+            "waitingPeriodCondition": "true",
+            "waitingPeriod": "24 months"
+          }
+        ],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "K86.1"
+        ],
+        "benefitName": "Pancreatitis",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [
+          {
+            "waitingPeriodCondition": "true",
+            "waitingPeriod": "24 months"
+          }
+        ],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "K80.36"
+        ],
+        "benefitName": "Stones In Biliary System",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [
+          {
+            "waitingPeriodCondition": "true",
+            "waitingPeriod": "24 months"
+          }
+        ],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "N20.9"
+        ],
+        "benefitName": "Stone In Urinary System",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [
+          {
+            "waitingPeriodCondition": "true",
+            "waitingPeriod": "24 months"
+          }
+        ],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "H40.9"
+        ],
+        "benefitName": "Glaucoma",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [
+          {
+            "waitingPeriodCondition": "true",
+            "waitingPeriod": "24 months"
+          }
+        ],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "H27.9"
+        ],
+        "benefitName": "Disorders Of Lens",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [
+          {
+            "waitingPeriodCondition": "true",
+            "waitingPeriod": "24 months"
+          }
+        ],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "H35.9"
+        ],
+        "benefitName": "Disorders Of Retina",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [
+          {
+            "waitingPeriodCondition": "true",
+            "waitingPeriod": "24 months"
+          }
+        ],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "H25.20"
+        ],
+        "benefitName": "Cataract",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [
+          {
+            "waitingPeriodCondition": "true",
+            "waitingPeriod": "24 months"
+          }
+        ],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "N43.41"
+        ],
+        "benefitName": "Spermatocele",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [
+          {
+            "waitingPeriodCondition": "true",
+            "waitingPeriod": "24 months"
+          }
+        ],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "N43.3"
+        ],
+        "benefitName": "Hydrocele",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [
+          {
+            "waitingPeriodCondition": "true",
+            "waitingPeriod": "24 months"
+          }
+        ],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "Z90.711"
+        ],
+        "benefitName": "Hysterectomy",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [
+          {
+            "waitingPeriodCondition": "true",
+            "waitingPeriod": "24 months"
+          }
+        ],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "N40.1"
+        ],
+        "benefitName": "Hyperplasia Of Prostate",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "N93.9"
+        ],
+        "benefitName": "Abnormal Utero-Vaginal Bleeding",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "K64"
+        ],
+        "benefitName": "Hemorrhoids",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "K45.8"
+        ],
+        "benefitName": "Hernia",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "M19.90"
+        ],
+        "benefitName": "Osteoarthritis",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "N18"
+        ],
+        "benefitName": "Chronic Kidney Disease",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "I83.9"
+        ],
+        "benefitName": "Varicose Veins",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "D04.9"
+        ],
+        "benefitName": "All Internal Or External Benign Or In Situ Neoplasms/Tumours, Cyst, Sinus, Polyp, Nodules, Swelling, Mass Or Lump",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "K25.9"
+        ],
+        "benefitName": "Ulcer Of Gastro Intestinal Tract",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "H70.90"
+        ],
+        "benefitName": "Mastoid (Including Otitis Media, Cholesteatoma, Perforation Of Tympanic Membrane)",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "Q89.9"
+        ],
+        "benefitName": "Internal Congenital Anomaly",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "Z48.816"
+        ],
+        "benefitName": "Genito-Urinary System Unless Necessitated By Malignancy",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "G95.9"
+        ],
+        "benefitName": "Spinal Disorders",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "N81.9"
+        ],
+        "benefitName": "Female Genital Prolapse",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "N80.3"
+        ],
+        "benefitName": "Endometriosis",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "N80.0"
+        ],
+        "benefitName": "Adenomyosis",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "D25.9"
+        ],
+        "benefitName": "Fibroids",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "E28.2"
+        ],
+        "benefitName": "Pcod",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "K61.1"
+        ],
+        "benefitName": "Abscess Of Anal Region",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "DIAG_K61.1"
+        ],
+        "benefitName": "Abscess Of Rectal Region",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "K60.2"
+        ],
+        "benefitName": "Fissure Or Fistula",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "M35.9"
+        ],
+        "benefitName": "Systemic Connective Tissue Disorders",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "M48.9"
+        ],
+        "benefitName": "Spondylopathies",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "M53.9"
+        ],
+        "benefitName": "Dorsopathies",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "M06.4"
+        ],
+        "benefitName": "Inflammatory Polyarthropathies",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "M06.9"
+        ],
+        "benefitName": "Arthrosis Such As Ra",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "M10.9"
+        ],
+        "benefitName": "Gout",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "M51.06"
+        ],
+        "benefitName": "Intervertebral Disc Disorders",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "DIAG_K25.9"
+        ],
+        "benefitName": "Erosion Of Gastro Intestinal Tract",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "DIAGNOSIS",
+        "benefitCodes": [
+          "I86.4"
+        ],
+        "benefitName": "Varices Of Gastro Intestinal Tract",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "10D17ZZ"
+        ],
+        "benefitName": "Dilation And Curettage",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0MQ60ZZ"
+        ],
+        "benefitName": "Arthroscopic Surgeries For Ligament Repair",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0CTPXZZ"
+        ],
+        "benefitName": "Tonsils And Adenoids",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "09QM3ZZ"
+        ],
+        "benefitName": "Nasal Septum",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "099K7ZZ"
+        ],
+        "benefitName": "Nasal Sinuses",
+        "covered": "N"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "8E0ZXY1"
+        ],
+        "benefitName": "Artificial Insemination\n(Ivf, Zift, Gift, Icsi)",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "SG_10E0XZZ"
+        ],
+        "benefitName": "Gestational Surrogacy",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0VBQ4ZZ"
+        ],
+        "benefitName": "Reversal Of Sterilization",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0UH97HZ"
+        ],
+        "benefitName": "Contraception",
+        "covered": "Y"
+      },
+      {
+        "limits": [],
+        "waitingPeriods": [],
+        "coveredIf": [],
+        "excludedUnless": [],
+        "benefitType": "PROCEDURE",
+        "benefitCodes": [
+          "0UL70ZZ"
+        ],
+        "benefitName": "Sterilization",
+        "covered": "Y"
+      }
+    ]
+  }
+}

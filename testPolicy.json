@@ -1,0 +1,69 @@
+{
+    "id": "NIVABUPA_REASSURE",
+    "status": "active",
+    "name": "Niva Bupa Reasssure Insurance Plan",
+    "benefitDetails": {
+        "INPATIENT": [
+            {
+                "benefitType": "SERVICE",
+                "benefitCodes": ["A", "B", "C"],
+                "benefitName": "Test Benefit",
+                "covered": false,
+                "limits": [
+                    {
+                        "limitType": "CLAIM",
+                        "limitAmountExpression": "policy_sum_insured",
+                        "limitCondition": "claim_submission_type = 'CASHLESS'"
+                    },
+                    {
+                        "limitType": "CLAIM",
+                        "limitAmountExpression": "250000",
+                        "limitCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriodCondition": "true",
+                        "waitingPeriod": "24 months"
+                    }
+                ],
+                "coveredIf": [
+                    {
+                        "ruleCode": 1,
+                        "ruleCategory": "",
+                        "ruleCondition": "false",
+                        "ruleDescription": "",
+                        "ruleDisplayText": "Covered only if the claim is submitted as reimbursement"
+                    },
+                    {
+                        "ruleCode": 2,
+                        "ruleCategory": "",
+                        "ruleCondition": "claim_submission_type = 'CASHLESS'",
+                        "ruleDescription": "",
+                        "ruleDisplayText": "Covered only if the claim is submitted as reimbursement"
+                    }
+                ],
+                "excludedUnless": [
+                    {
+                        "ruleCode": 1,
+                        "ruleCategory": "",
+                        "ruleCondition": "claim_admission_reason_code = 'ACCIDENT'",
+                        "ruleDescription": "",
+                        "ruleDisplayText": "Covered only if the claim is submitted as reimbursement"
+                    },
+                    {
+                        "ruleCode": 2,
+                        "ruleCategory": "",
+                        "ruleCondition": "claim_submission_type = 'CASHLESS'",
+                        "ruleDescription": "",
+                        "ruleDisplayText": "Covered only if the claim is submitted as reimbursement"
+                    }
+                ]
+            }
+        ]
+    },
+    "defaultWaitingPeriod": "30 days",
+    "defaultWaitingPeriodForPEDs": "36 months",
+    "inputVariables": [
+    ]
+}

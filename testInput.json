@@ -1,0 +1,13 @@
+{
+    "product_code": "NIVABUPA_HEARTBEAT",
+    "benefit_category": "INPATIENT",
+    "benefit_type": "DIAGNOSIS",
+    "benefit_code": "W55.81XA",
+    "claim_submission_type": "CASHLESS",
+    "reason_for_hospitalization": "ILLNESS",
+    "policy_base_sum_insured": 250000,
+    "patient_days_of_hospitalization_during_policy_year": 20,
+    "policy_enhancement_type": "SAFEGUARD",
+    "personal_accident_cover_sum_insured": 100000,
+    "policy_variant_type": "GOLD"
+}

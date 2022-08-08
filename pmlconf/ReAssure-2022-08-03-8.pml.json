@@ -1,0 +1,5270 @@
+{
+    "id": "NIVABUPA_REASSURE",
+    "status": "active",
+    "name": "Niva Bupa Reasssure Insurance Plan",
+    "defaultWaitingPeriod": [
+        {
+            "waitingPeriod": "30 days",
+            "waitingPeriodCondition": "true"
+        }
+    ],
+    "defaultWaitingPeriodForPEDs": [
+        {
+            "waitingPeriod": "36 months",
+            "waitingPeriodCondition": "true"
+        }
+    ],
+    "benefitDetails": {
+        "INPATIENT": [
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_001"
+                ],
+                "benefitName": "Room Rent",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_002"
+                ],
+                "benefitName": "Room Boarding And Nursing Charges",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_002"
+                ],
+                "benefitName": "Intravenous Fluids",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "30233N1"
+                ],
+                "benefitName": "Blood Transfusion",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_007"
+                ],
+                "benefitName": "Injection Administration Charges",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_003"
+                ],
+                "benefitName": "Allowable Consumables And / Or Enteral Feedings",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_003"
+                ],
+                "benefitName": "Operation Theatre Charges",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_008"
+                ],
+                "benefitName": "Cost Of Prosthetics",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_004"
+                ],
+                "benefitName": "Intensive Care Unit Charges",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_005"
+                ],
+                "benefitName": "Pre Hospitalization Medical Expenses",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_006"
+                ],
+                "benefitName": "Post Hospitalization Medical Expense",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "INVESTIGATION",
+                "benefitCodes": [
+                    "87181-4"
+                ],
+                "benefitName": "Uterine Artery Embolization And Hifu (High Intensity Focused Ultrasound)",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "09BM4ZZ"
+                ],
+                "benefitName": "Balloon Sinuplasty",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "00HV4MZ"
+                ],
+                "benefitName": "Deep Brain Stimulation",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "3E03305"
+                ],
+                "benefitName": "Oral Chemotherapy",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "XW033C7"
+                ],
+                "benefitName": "Immunotherapy",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_001"
+                ],
+                "benefitName": "Intra Vitreal Injections",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "D020JZZ"
+                ],
+                "benefitName": "Stereotactic Radio Surgeries",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "B30LZZ"
+                ],
+                "benefitName": "Bronchical Thermoplasty",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "DVY0KZZ"
+                ],
+                "benefitName": "Vaporisation Of The Prostrate (Green Laser Treatment Or Holmium Laser Treatment)",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "INVESTIGATION",
+                "benefitCodes": [
+                    "95940"
+                ],
+                "benefitName": "Ionm - (Intra Operative Neuro Monitoring)",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "07DR3ZX"
+                ],
+                "benefitName": "Stem Cell Therapy",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "F07K6YZ"
+                ],
+                "benefitName": "Physiotherapy Treatments",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_015"
+                ],
+                "benefitName": "Second Medical Opinion",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "800",
+                        "limitType": "DAY",
+                        "limitCondition": "policy_base_sum_insured <= 1500000"
+                    },
+                    {
+                        "limitAmountExpression": "4800",
+                        "limitType": "CLAIM",
+                        "limitCondition": "policy_base_sum_insured <= 1500000"
+                    },
+                    {
+                        "limitAmountExpression": "1000",
+                        "limitType": "DAY",
+                        "limitCondition": "policy_base_sum_insured > 1500000"
+                    },
+                    {
+                        "limitAmountExpression": "6000",
+                        "limitType": "CLAIM",
+                        "limitCondition": "policy_base_sum_insured > 1500000"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_007",
+                        "ruleDisplayText": "Covered if the room type is SHARED",
+                        "ruleCondition": "claim_room_type = 'SHARED'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_057"
+                ],
+                "benefitName": "Shared Accommodation Cash Benefit",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "1000",
+                        "limitType": "DAY",
+                        "limitCondition": "policy_base_sum_insured <= 500000"
+                    },
+                    {
+                        "limitAmountExpression": "2000",
+                        "limitType": "DAY",
+                        "limitCondition": "policy_base_sum_insured > 500000 and policy_base_sum_insured <= 1500000"
+                    },
+                    {
+                        "limitAmountExpression": "4000",
+                        "limitType": "DAY",
+                        "limitCondition": "policy_base_sum_insured > 1500000"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_003",
+                        "ruleDisplayText": "Covered up to 30 days of hospitalization during a policy period and for a minimum of 48 hours of hospitalization.",
+                        "ruleCondition": "patient_days_of_hospitalization_during_policy_year <= 30 and claim_days_of_hositalization >= 2"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_058"
+                ],
+                "benefitName": "Hospital Cash",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "100000",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "SG_8E0W4CZ"
+                ],
+                "benefitName": "Robotic Surgeries",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0VT08ZZ"
+                ],
+                "benefitName": "Robotic Total Radical Prostatectomy",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "02120Z9",
+                    "021009W",
+                    "06BQ0ZZ",
+                    "5A1221Z"
+                ],
+                "benefitName": "Robotic Cardiac Surgeries",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0TT10ZZ"
+                ],
+                "benefitName": "Robotic Partial Nephrectomy",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0HBCXZZ"
+                ],
+                "benefitName": "Robotic Surgeries For Malignancies",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "B2111ZZ"
+                ],
+                "benefitName": "Angiography",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "5A1D70Z"
+                ],
+                "benefitName": "Dialysis",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "30 days",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "DB021ZZ",
+                    "3E03305"
+                ],
+                "benefitName": "Radiotherapy Or Chemotherapy For Cancer.",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0VT08ZZ.1"
+                ],
+                "benefitName": "Vaporisation Of The Prostrate (Green Laser Treatment Or Holmium Laser Treatment)",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_085"
+                ],
+                "benefitName": "Opd Treatment Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0TY10Z0"
+                ],
+                "benefitName": "Living Organ Donors Medical Treatment",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "SG_07DR3ZX"
+                ],
+                "benefitName": "Stem Cell Donation",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_087"
+                ],
+                "benefitName": "Pre Hospitalization Medical Expenses For Organ Donor",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_088"
+                ],
+                "benefitName": "Post Hospitalization Medical Expenses For Organ Donor",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_93"
+                ],
+                "benefitName": "Medical Expenses Of The Organ Donor",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0TY00Z0"
+                ],
+                "benefitName": "Transplant Of Any Organ Or Tissue (Experimental)",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_014"
+                ],
+                "benefitName": "Expense Related To Organ Transportation Or Preservation",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_013"
+                ],
+                "benefitName": "Treatment To The Donor As A Consequence Of Harvesting",
+                "covered": false
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "2000",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_011"
+                ],
+                "benefitName": "Ambulance Charges",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "policy_base_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "claim_submission_type = 'CASHLESS'"
+                    },
+                    {
+                        "limitAmountExpression": "250000",
+                        "limitType": "CLAIM",
+                        "limitCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_012"
+                ],
+                "benefitName": "Air Ambulance Charges",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "F07Z5ZZ"
+                ],
+                "benefitName": "Rest Cure",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "F07L0ZZ"
+                ],
+                "benefitName": "Rehabilitation",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "SG006"
+                ],
+                "benefitName": "Respite Care",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_090"
+                ],
+                "benefitName": "Austodial Care",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_022"
+                ],
+                "benefitName": "Any Services For People Who Are Terminally Ill To Address Physical, Social, Emotional And Spiritual Needs.",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "E66.9"
+                ],
+                "benefitName": "Obesity",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z71.3"
+                ],
+                "benefitName": "Weight Control",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0W4N071"
+                ],
+                "benefitName": "Change-Of-Gender Treatments",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_001",
+                        "ruleDisplayText": "Excluded unless the hospitalization is due to an accident.",
+                        "ruleCondition": "reason_for_hospitalization = 'ACCIDENT'"
+                    }
+                ],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "090K0ZZ"
+                ],
+                "benefitName": "Cosmetic Or Plastic Surgery",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Y93.6"
+                ],
+                "benefitName": "Hazardous Or Adventure Sports",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_092"
+                ],
+                "benefitName": "Breach Of Law",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "HZ2ZZZZ"
+                ],
+                "benefitName": "Treatment For Alcoholism, Drug & Addictive Condition",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "3E043GQ"
+                ],
+                "benefitName": "Nature Cure Hydros",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_023"
+                ],
+                "benefitName": "Services As Spas Or Similar Establishments",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_055"
+                ],
+                "benefitName": "Dietary Supplements And Substances",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "H52.7"
+                ],
+                "benefitName": "Refractive Error",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z71.1"
+                ],
+                "benefitName": "Unproven Diagnosis",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "10E0XZZ"
+                ],
+                "benefitName": "Complicated Delivery",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_001",
+                        "ruleDisplayText": "Excluded unless the hospitalization is due to an accident.",
+                        "ruleCondition": "reason_for_hospitalization = 'ACCIDENT'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_044"
+                ],
+                "benefitName": "Expenses Towards Miscarriage",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "10A07ZW"
+                ],
+                "benefitName": "Medical Termination of Pregnancy",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_054"
+                ],
+                "benefitName": "Rmo Charges,Surcharges And Service Charges Levied By The Hospital",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z11.3"
+                ],
+                "benefitName": "Sexually Transmitted Infections & Diseases",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "B20"
+                ],
+                "benefitName": "HIV/AIDS",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "G47.9"
+                ],
+                "benefitName": "Sleep Disorders",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "F82"
+                ],
+                "benefitName": "Neuro-Developmental Delays And Disorders",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "F79"
+                ],
+                "benefitName": "Mental Retardation",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0VTTXZZ"
+                ],
+                "benefitName": "Circumcision Treatment",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "SG007"
+                ],
+                "benefitName": "External Congenital Anomaly Treatments",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "SG008"
+                ],
+                "benefitName": "Conflict & Disaster Treatements",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "SG009"
+                ],
+                "benefitName": "Artificial Life Maintenance Treatments",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_056"
+                ],
+                "benefitName": "Multifocal Lens And Ambulatory Devices",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_001",
+                        "ruleDisplayText": "Excluded unless the hospitalization is due to an accident.",
+                        "ruleCondition": "reason_for_hospitalization = 'ACCIDENT'"
+                    }
+                ],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0CDWXZ2"
+                ],
+                "benefitName": "Dental/Oral Treatments",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_024"
+                ],
+                "benefitName": "Baby Food",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_025"
+                ],
+                "benefitName": "Baby Utilities Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_026"
+                ],
+                "benefitName": "Beauty Services",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_027"
+                ],
+                "benefitName": "Belts/ Braces",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_028"
+                ],
+                "benefitName": "Buds",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_006"
+                ],
+                "benefitName": "Cold Pack/Hot Pack",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_007"
+                ],
+                "benefitName": "Carry Bags",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_029"
+                ],
+                "benefitName": "Email / Internet Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_94"
+                ],
+                "benefitName": "Food Charges (Other Than Patient'S Diet Provided By Hospital)",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_009"
+                ],
+                "benefitName": "Leggings",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_030"
+                ],
+                "benefitName": "Laundry Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_011"
+                ],
+                "benefitName": "Mineral Water",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_010"
+                ],
+                "benefitName": "Sanitary Pad",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_031"
+                ],
+                "benefitName": "Telephone Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_032"
+                ],
+                "benefitName": "Guest Services",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_012"
+                ],
+                "benefitName": "Crepe Bandage",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_013"
+                ],
+                "benefitName": "Diaper Of Any Type",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_014"
+                ],
+                "benefitName": "Eyelet Collar",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_015"
+                ],
+                "benefitName": "Slings",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_033"
+                ],
+                "benefitName": "Blood Grouping And Cross Matching Of Donors Samples",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_034"
+                ],
+                "benefitName": "Service Charges Where Nursing Charge Also Charged",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_035"
+                ],
+                "benefitName": "Television Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_036"
+                ],
+                "benefitName": "Surcharges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_037"
+                ],
+                "benefitName": "Attendant Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_038"
+                ],
+                "benefitName": "Extra Diet Of Patient (Other Than That Which Forms Part Of Bed Charge)",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_016"
+                ],
+                "benefitName": "Birth Certificate",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_039"
+                ],
+                "benefitName": "Certificate Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_040"
+                ],
+                "benefitName": "Courier Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_041"
+                ],
+                "benefitName": "Conveyance Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_017"
+                ],
+                "benefitName": "Medical Certificate",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_018"
+                ],
+                "benefitName": "Medical Records",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_042"
+                ],
+                "benefitName": "Photocopies Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_043"
+                ],
+                "benefitName": "Mortuary Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_045"
+                ],
+                "benefitName": "Walking Aids Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_019"
+                ],
+                "benefitName": "Oxygen Cylinder (For Usage Outside The Hospital)",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_046"
+                ],
+                "benefitName": "Spacer",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_042"
+                ],
+                "benefitName": "Spirometre",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_043"
+                ],
+                "benefitName": "Nebulizer Kit",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_044"
+                ],
+                "benefitName": "Steam Inhaler",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_045"
+                ],
+                "benefitName": "Armsling",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_035"
+                ],
+                "benefitName": "Thermometer",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_036"
+                ],
+                "benefitName": "Cervical Collar",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_037"
+                ],
+                "benefitName": "Splint",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_038"
+                ],
+                "benefitName": "Diabetic Foot Wear",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_039"
+                ],
+                "benefitName": "Knee Braces (Long/ Short/ Hinged)",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_040"
+                ],
+                "benefitName": "Knee Immobilizer/Shoulder Immobilizer",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_041"
+                ],
+                "benefitName": "Lumbo Sacral Belt",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_047"
+                ],
+                "benefitName": "Nimbus Bed Or Water Or Air Bed Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_048"
+                ],
+                "benefitName": "Ambulance Collar",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_049"
+                ],
+                "benefitName": "Ambulance Equipment",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_050"
+                ],
+                "benefitName": "Abdominal Binder",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_051"
+                ],
+                "benefitName": "Private Nurses Charges- Special Nursing Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_020"
+                ],
+                "benefitName": "Sugar Free Tablets",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_021"
+                ],
+                "benefitName": "Creams Powders Lotions (Toiletries Are Not Payable,Only Prescribed Medical Pharmaceuticals Payable)",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_022"
+                ],
+                "benefitName": "Ecg Electrodes",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_023"
+                ],
+                "benefitName": "Gloves",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_024"
+                ],
+                "benefitName": "Nebulisation Kit",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_025"
+                ],
+                "benefitName": "Any Kit With No Details Mentioned [Delivery Kit,Orthokit, Recovery Kit, Etc]",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_026"
+                ],
+                "benefitName": "Kidney Tray",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_027"
+                ],
+                "benefitName": "Mask",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_028"
+                ],
+                "benefitName": "Ounce Glass",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_029"
+                ],
+                "benefitName": "Oxygen Mask",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_030"
+                ],
+                "benefitName": "Pelvic Traction Belt",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_031"
+                ],
+                "benefitName": "Pan Can",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_032"
+                ],
+                "benefitName": "Trolly Cover",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_033"
+                ],
+                "benefitName": "Urometer, Urine Jug",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_052"
+                ],
+                "benefitName": "Ambulance",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_034"
+                ],
+                "benefitName": "Vasofix Safety",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_059"
+                ],
+                "benefitName": "Baby Charges (Unless Specified/Indicated)",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_049"
+                ],
+                "benefitName": "Hand Wash",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_050"
+                ],
+                "benefitName": "Shoe Cover",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_051"
+                ],
+                "benefitName": "Caps",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_060"
+                ],
+                "benefitName": "Cradle Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_052"
+                ],
+                "benefitName": "Comb",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_046"
+                ],
+                "benefitName": "Eau-De-Cologne / Room Freshners",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_098"
+                ],
+                "benefitName": "Foot Cover",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_047"
+                ],
+                "benefitName": "Gown",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_048"
+                ],
+                "benefitName": "Slippers",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_061"
+                ],
+                "benefitName": "Tissue Paper",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_120"
+                ],
+                "benefitName": "Clean Sheet",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_053"
+                ],
+                "benefitName": "Tooth Paste",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_054"
+                ],
+                "benefitName": "Tooth Brush",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_055"
+                ],
+                "benefitName": "Bed Pan",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_056"
+                ],
+                "benefitName": "Face Mask",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_057"
+                ],
+                "benefitName": "Flexi Mask",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_058"
+                ],
+                "benefitName": "Hand Holder",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_059"
+                ],
+                "benefitName": "Sputum Cup",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_060"
+                ],
+                "benefitName": "Disinfectant Lotions",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_061"
+                ],
+                "benefitName": "Luxury Tax",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_062"
+                ],
+                "benefitName": "Hvac",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_062"
+                ],
+                "benefitName": "House Keeping Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_063"
+                ],
+                "benefitName": "Air Conditioner Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_064"
+                ],
+                "benefitName": "Im Iv Injection Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_063"
+                ],
+                "benefitName": "Blanket/Warmer Blanket",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_065"
+                ],
+                "benefitName": "Admission Kit",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_066"
+                ],
+                "benefitName": "Diabetic Chart Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_067"
+                ],
+                "benefitName": "Documentation Charges / Administrative Expenses",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_119"
+                ],
+                "benefitName": "Discharge Procedure Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_068"
+                ],
+                "benefitName": "Daily Chart Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_069"
+                ],
+                "benefitName": "Entrance Pass / Visitors Pass Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_070"
+                ],
+                "benefitName": "Expenses Related To Prescription On Discharge",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_071"
+                ],
+                "benefitName": "File Opening Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_072"
+                ],
+                "benefitName": "Incidental Expenses / Misc. Charges (Not Explained)",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_089"
+                ],
+                "benefitName": "Patient Identification Band / Name Tag",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_073"
+                ],
+                "benefitName": "Pulseoxymeter Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_064"
+                ],
+                "benefitName": "Hair Removal Cream",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_074"
+                ],
+                "benefitName": "Disposables Razors Charges (For Site Preparations)",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_065"
+                ],
+                "benefitName": "Eye Pad",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_066"
+                ],
+                "benefitName": "Eye Sheild",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_067"
+                ],
+                "benefitName": "Camera Cover",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_075"
+                ],
+                "benefitName": "Dvd, Cd Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_068"
+                ],
+                "benefitName": "Gause Soft",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_069"
+                ],
+                "benefitName": "Gauze",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_076"
+                ],
+                "benefitName": "Ward And Theatre Booking Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_077"
+                ],
+                "benefitName": "Arthroscopy And Endoscopy Instruments",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_078"
+                ],
+                "benefitName": "Microscope Cover",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_070"
+                ],
+                "benefitName": "Surgical Blades, Harmonicscalpel,Shaver",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_071"
+                ],
+                "benefitName": "Surgical Drill",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_091"
+                ],
+                "benefitName": "Eye Kit",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_072"
+                ],
+                "benefitName": "Eye Drape",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_073"
+                ],
+                "benefitName": "X-Ray Film",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_079"
+                ],
+                "benefitName": "Boyles Apparatus Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_092"
+                ],
+                "benefitName": "Cotton",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_074"
+                ],
+                "benefitName": "Cotton Bandage",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_075"
+                ],
+                "benefitName": "Surgical Tape",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_076"
+                ],
+                "benefitName": "Apron",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_077"
+                ],
+                "benefitName": "Torniquet",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_078"
+                ],
+                "benefitName": "Orthobundle, Gynaec Bundle",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_080"
+                ],
+                "benefitName": "Admission/Registration Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_083"
+                ],
+                "benefitName": "Hospitalisation For Evaluation/ Diagnostic Purpose",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_079"
+                ],
+                "benefitName": "Urine Container",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_081"
+                ],
+                "benefitName": "Blood Reservation Charges And Ante Natal Booking Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_080"
+                ],
+                "benefitName": "Bipap Machine",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_081"
+                ],
+                "benefitName": "Cpap/ Capd Equipments",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_082"
+                ],
+                "benefitName": "Infusion Pump– Cost",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_083"
+                ],
+                "benefitName": "Hydrogen Peroxide\\Spirit\\ Disinfectants Etc",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_082"
+                ],
+                "benefitName": "Nutrition Planning Charges - Dietician Charges- Diet Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_084"
+                ],
+                "benefitName": "Hiv Kit",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_085"
+                ],
+                "benefitName": "Antiseptic Mouthwash",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_086"
+                ],
+                "benefitName": "Lozenges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_087"
+                ],
+                "benefitName": "Mouth Paint",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "SERVICE",
+                "benefitCodes": [
+                    "SER_084"
+                ],
+                "benefitName": "Vaccination Charges",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_088"
+                ],
+                "benefitName": "Alcohol Swabes",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_089"
+                ],
+                "benefitName": "Scrub Solution / Sterillium",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_093"
+                ],
+                "benefitName": "Glucometer & Strips",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [
+                    {
+                        "ruleCode": "EXCL_002",
+                        "ruleDisplayText": "Excluded unless 'SAFEGUARD' Add-on is enabled.",
+                        "ruleCondition": "policy_enhancement_type = 'SAFEGUARD'"
+                    }
+                ],
+                "benefitType": "PRODUCT",
+                "benefitCodes": [
+                    "PRO_090"
+                ],
+                "benefitName": "Urine Bag",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z79.890"
+                ],
+                "benefitName": "Hormone Replacement",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "10D00Z1"
+                ],
+                "benefitName": "Cesarean Delivery",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "SG_O80"
+                ],
+                "benefitName": "Normal Delivery",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "10D28ZZ"
+                ],
+                "benefitName": "Ectopic Pregnancy",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "K86.1"
+                ],
+                "benefitName": "Pancreatitis",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "K80.36"
+                ],
+                "benefitName": "Stones In Biliary System",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "N20.9"
+                ],
+                "benefitName": "Stone In Urinary System",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "H40.9"
+                ],
+                "benefitName": "Glaucoma",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "H27.9"
+                ],
+                "benefitName": "Disorders Of Lens",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "H35.9"
+                ],
+                "benefitName": "Disorders Of Retina",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "H25.20"
+                ],
+                "benefitName": "Cataract",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "N43.41"
+                ],
+                "benefitName": "Spermatocele",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "N43.3"
+                ],
+                "benefitName": "Hydrocele",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z90.711"
+                ],
+                "benefitName": "Hysterectomy",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "N40.1"
+                ],
+                "benefitName": "Hyperplasia Of Prostate",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "N93.9"
+                ],
+                "benefitName": "Abnormal Utero-Vaginal Bleeding",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "K64"
+                ],
+                "benefitName": "Hemorrhoids",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "K45.8"
+                ],
+                "benefitName": "Hernia",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "M19.90"
+                ],
+                "benefitName": "Osteoarthritis",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "N18"
+                ],
+                "benefitName": "Chronic Kidney Disease",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "I83.9"
+                ],
+                "benefitName": "Varicose Veins",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "D04.9"
+                ],
+                "benefitName": "All Internal Or External Benign Or In Situ Neoplasms/Tumours, Cyst, Sinus, Polyp, Nodules, Swelling, Mass Or Lump",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "K25.9"
+                ],
+                "benefitName": "Ulcer Of Gastro Intestinal Tract",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "H70.90"
+                ],
+                "benefitName": "Mastoid (Including Otitis Media, Cholesteatoma, Perforation Of Tympanic Membrane)",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Q89.9"
+                ],
+                "benefitName": "Internal Congenital Anomaly",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z48.816"
+                ],
+                "benefitName": "Genito-Urinary System Unless Necessitated By Malignancy",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "G95.9"
+                ],
+                "benefitName": "Spinal Disorders",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "N81.9"
+                ],
+                "benefitName": "Female Genital Prolapse",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "N80.3"
+                ],
+                "benefitName": "Endometriosis",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "N80.0"
+                ],
+                "benefitName": "Adenomyosis",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "D25.9"
+                ],
+                "benefitName": "Fibroids",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "E28.2"
+                ],
+                "benefitName": "Pcod",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "K61.1"
+                ],
+                "benefitName": "Abscess Of Anal Region",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "DIAG_K61.1"
+                ],
+                "benefitName": "Abscess Of Rectal Region",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "K60.2"
+                ],
+                "benefitName": "Fissure Or Fistula",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "M35.9"
+                ],
+                "benefitName": "Systemic Connective Tissue Disorders",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "M48.9"
+                ],
+                "benefitName": "Spondylopathies",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "M53.9"
+                ],
+                "benefitName": "Dorsopathies",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "M06.4"
+                ],
+                "benefitName": "Inflammatory Polyarthropathies",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "M06.9"
+                ],
+                "benefitName": "Arthrosis Such As Ra",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "M10.9"
+                ],
+                "benefitName": "Gout",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "M51.06"
+                ],
+                "benefitName": "Intervertebral Disc Disorders",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "DIAG_K25.9"
+                ],
+                "benefitName": "Erosion Of Gastro Intestinal Tract",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "I86.4"
+                ],
+                "benefitName": "Varices Of Gastro Intestinal Tract",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "10D17ZZ"
+                ],
+                "benefitName": "Dilation And Curettage",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0MQ60ZZ"
+                ],
+                "benefitName": "Arthroscopic Surgeries For Ligament Repair",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0CTPXZZ"
+                ],
+                "benefitName": "Tonsils And Adenoids",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "09QM3ZZ"
+                ],
+                "benefitName": "Nasal Septum",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [
+                    {
+                        "waitingPeriod": "24 months",
+                        "waitingPeriodCondition": "true"
+                    }
+                ],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "099K7ZZ"
+                ],
+                "benefitName": "Nasal Sinuses",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "SG_10E0XZZ"
+                ],
+                "benefitName": "Gestational Surrogacy",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0VBQ4ZZ"
+                ],
+                "benefitName": "Reversal Of Sterilization",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0UH97HZ"
+                ],
+                "benefitName": "Contraception",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "0UL70ZZ"
+                ],
+                "benefitName": "Sterilization",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "PROCEDURE",
+                "benefitCodes": [
+                    "8E0ZXY1"
+                ],
+                "benefitName": "Artificial Insemination",
+                "covered": false
+            }
+        ],
+        "ACCIDENT": [
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "1 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "1"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "R99"
+                ],
+                "benefitName": "Accidental Death",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "1.25 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "G82.20"
+                ],
+                "benefitName": "Paraplegia",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "1.25 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "G81.91"
+                ],
+                "benefitName": "Hemiplegia",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "1.25 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "H54.3"
+                ],
+                "benefitName": "Sight In Both Eyes",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "1.25 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z73.6"
+                ],
+                "benefitName": "Loss Of Independent Living",
+                "covered": true
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "T14.91"
+                ],
+                "benefitName": "Intentional Self Inflicted Injury Or Attempted Suicide",
+                "covered": false
+            },
+            {
+                "limits": [],
+                "waitingPeriods": [],
+                "coveredIf": [],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Y36"
+                ],
+                "benefitName": "Any Injury Or Illness Resulting Directly Or Indirectly From Nuclear, Radiological Emissions, War Or War Like Situations, Rebellion And Acts Of Terrorism",
+                "covered": false
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "1 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z89.111"
+                ],
+                "benefitName": "Loss Or Total And Permanent Loss Of Use Of Both The Hands From The Wrist Joint",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "1 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z89.431"
+                ],
+                "benefitName": "Loss Or Total And Permanent Loss Of Use Of Both Feet From The Ankle Joint",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "1 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "R47.9.1",
+                    "H91.90.1"
+                ],
+                "benefitName": "Total And Permanent Loss Of Speech And Hearing In Both Ears",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.5 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "H91.90"
+                ],
+                "benefitName": "Total And Permanent Loss Of Hearing In Both Ears",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.5 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "DIAG_Z89.111"
+                ],
+                "benefitName": "Loss Or Total And Permanent Loss Of Use Of One Hand From Wrist Joint",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.5 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "DIAG_Z89.431"
+                ],
+                "benefitName": "Loss Or Total And Permanent Loss Of Use Of One Foot From Ankle Joint",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.5 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "H54.61"
+                ],
+                "benefitName": "Total And Permanent Loss Of Sight In One Eye",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.5 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "R47.9"
+                ],
+                "benefitName": "Total And Permanent Loss Of Speech",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.4 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "S68.629A"
+                ],
+                "benefitName": "Permanent Total Loss Of Use Of Four Fingers And Thumb Of Either Hand",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.35 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "DIAG_S68.629A"
+                ],
+                "benefitName": "Permanent Total Loss Of Use Of Four Fingers Of Either Hand",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "1 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z89.111",
+                    "Z89.431"
+                ],
+                "benefitName": "Loss Or Total And Permanent Loss Of Use Of One Hand From The Wrist Joint And Of One Foot From The Ankle Joint",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "1 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z89.111",
+                    "H54.61.1"
+                ],
+                "benefitName": "Loss Or Total And Permanent Loss Of Use Of One Hand From The Wrist Joint And Total And Permanent Loss Of Sight In One Eye",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "1 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z89.431",
+                    "H54.61.1"
+                ],
+                "benefitName": "Loss Or Total And Permanent Loss Of Use Of One Foot From The Ankle Joint And Total And Permanent Loss Of Sight In One Eye",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.25 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "G83.30"
+                ],
+                "benefitName": "Uniplegia",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.25 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z89.012"
+                ],
+                "benefitName": "Permanent Total Loss Of Use Of One Thumb Of Either Hand : Both Joints",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.10 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "DIAG_Z89.012.1"
+                ],
+                "benefitName": "Permanent Total Loss Of Use Of One Thumb Of Either Hand : One Joint",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.10 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z89.022"
+                ],
+                "benefitName": "Permanent Total Loss Of Use Of Fingers Of Either Hand: Three Joints",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.08 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "DIAG_Z89.022.1"
+                ],
+                "benefitName": "Permanent Total Loss Of Use Of Fingers Of Either Hand: Two Joints",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.05 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "DIAG_Z89.022.2"
+                ],
+                "benefitName": "Permanent Total Loss Of Use Of Fingers Of Either Hand: One Joint",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.2 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "Z89.431.1"
+                ],
+                "benefitName": "Permanent Total Loss Of Use Of Toes Of Either Foot: All Toes- One Foot",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.05 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "DIAG_Z89.431.1"
+                ],
+                "benefitName": "Permanent Total Loss Of Use Of Toes Of Either Foot: Great Toe- Both Joints",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.02 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "DIAG_Z89.431.2"
+                ],
+                "benefitName": "Permanent Total Loss Of Use Of Toes Of Either Foot: Great Toe- One Joint",
+                "covered": true
+            },
+            {
+                "limits": [
+                    {
+                        "limitAmountExpression": "0.01 * personal_accident_cover_sum_insured",
+                        "limitType": "CLAIM",
+                        "limitCondition": "true"
+                    }
+                ],
+                "waitingPeriods": [],
+                "coveredIf": [
+                    {
+                        "ruleCode": "COVR_001",
+                        "ruleDisplayText": "Covered only if the claim submission type is REIMBURSEMENT",
+                        "ruleCondition": "claim_submission_type = 'REIMBURSEMENT'"
+                    }
+                ],
+                "excludedUnless": [],
+                "benefitType": "DIAGNOSIS",
+                "benefitCodes": [
+                    "DIAG_Z89.431.3"
+                ],
+                "benefitName": "Permanent Total Loss Of Use Of Toes Of Either Foot: Other Than Great Toe, One Toe",
+                "covered": true
+            }
+        ],
+        "ALTERNATIVE": [],
+        "DAYCARE": [],
+        "DOMICILARY": [],
+        "HEALTHCHECK": [],
+        "HOMECARE": []
+    }
+}
