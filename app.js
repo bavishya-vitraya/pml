@@ -37,111 +37,128 @@ app.use(bodyParser.json())
 app.post('/findCoverage', (req, res) => {
 
 	let errors = []
-
     const input = req.body
 
 	input.policy_variant_type ||= 'DEFAULT'
 
 	let product = products[input.product_code || 'NIVABUPA_REASSURE']
 	let benefitCategory = input.benefit_category || 'INPATIENT'
-
+	let benefit_codes = input.benefit_codes
 
 	let result = {}
-
+	let coverages = []
+	let total_benefits = benefit_codes.length
+	let total_benefits_covered = 0,total_benefits_excluded = 0
 	if (product) {
-		if (input.benefit_code) {
-			console.log(input.benefit_code)
+		if (total_benefits) {
+			for(let benefit_code of benefit_codes){
+				console.log(benefit_code)
+				let benefit_result = {}
+				let defaultWaitingPeriod = "30 days"
 
-			let defaultWaitingPeriod = "30 days"
-
-			for (let defaultwaitingPeriodObj of product.defaultWaitingPeriod) {
-				if(defaultwaitingPeriodObj.waitingPeriodCondition && fhirpath.evaluate(input, defaultwaitingPeriodObj.waitingPeriodCondition)[0]) {
-					defaultWaitingPeriod = defaultwaitingPeriodObj.waitingPeriod
-					break
-				}
-			}
-
-			let defaultWaitingPeriodForPEDs = "36 months"
-
-			for (let defaultwaitingPeriodPEDObj of product.defaultWaitingPeriodForPEDs) {
-				if(defaultwaitingPeriodPEDObj.waitingPeriodCondition && fhirpath.evaluate(input, defaultwaitingPeriodPEDObj.waitingPeriodCondition)[0]) {
-					defaultWaitingPeriodForPEDs = defaultwaitingPeriodPEDObj.waitingPeriod
-					break
-				}
-			}
-
-			let benefit = {}
-
-			for (let benefitObj of product.benefitDetails[benefitCategory]) {
-				if (input.benefit_type == benefitObj.benefitType
-					&& benefitObj.benefitCodes.includes(input.benefit_code)) {
-					benefit = benefitObj
-					break
-				}
-			}
-
-			if (Object.keys(benefit).length) {
-				result["benefit_covered"] = benefit.covered
-				result["benefit_name"] = benefit.benefitName
-				result["benefit_codes"] = benefit.benefitCodes
-							
-				if(benefit.covered && benefit.coveredIf.length) {
-					for (const rule of benefit.coveredIf) {
-						if (!(fhirpath.evaluate(input,rule.ruleCondition)[0])) {
-							result["benefit_covered"] = false
-							result["benefit_coverage_failed_rules"] ||= []
-							result["benefit_coverage_failed_rules"].push({
-								"code": rule.ruleCode,
-								"displayText": rule.ruleDisplayText
-							})
-						}
+				for (let defaultwaitingPeriodObj of product.defaultWaitingPeriod) {
+					if(defaultwaitingPeriodObj.waitingPeriodCondition && fhirpath.evaluate(input, defaultwaitingPeriodObj.waitingPeriodCondition)[0]) {
+						defaultWaitingPeriod = defaultwaitingPeriodObj.waitingPeriod
+						break
 					}
 				}
 
-				if(!benefit.covered && benefit.excludedUnless.length) {
-					let exclusionFlag = false
-					let exclusionExceptions = []
-					for (const rule of benefit.excludedUnless) {
-						if (fhirpath.evaluate(input,rule.ruleCondition)[0]) {
-							exclusionExceptions.push({
-								"code": rule.ruleCode,
-								"displayText": rule.ruleDisplayText
-							})
-						}
-						else {
-							exclusionFlag = true
-							break
-						}
+				let defaultWaitingPeriodForPEDs = "36 months"
+
+				for (let defaultwaitingPeriodPEDObj of product.defaultWaitingPeriodForPEDs) {
+					if(defaultwaitingPeriodPEDObj.waitingPeriodCondition && fhirpath.evaluate(input, defaultwaitingPeriodPEDObj.waitingPeriodCondition)[0]) {
+						defaultWaitingPeriodForPEDs = defaultwaitingPeriodPEDObj.waitingPeriod
+						break
 					}
-					result["benefit_covered"] = !exclusionFlag
-					if (result["benefit_covered"] && exclusionExceptions.length)
-						result["benefit_exclusion_exceptions"] = exclusionExceptions
 				}
 
-				if (result["benefit_covered"]) {
-					for (let limit of benefit.limits) {
-						if (limit.limitCondition && fhirpath.evaluate(input, limit.limitCondition)[0]) {
-							let limitResult = fhirpath.evaluate(input, limit.limitAmountExpression)
-							if (limitResult.length)
-								result["limit_per_" + limit.limitType.toLowerCase()] = +limitResult[0]
-						}
-					}
-		
-					for (let waitingPeriodObj of benefit.waitingPeriods) {
-						if(waitingPeriodObj.waitingPeriodCondition && fhirpath.evaluate(input, waitingPeriodObj.waitingPeriodCondition)[0]) {
-							result["benefit_waiting_period"] = waitingPeriodObj.waitingPeriod
-						}
+				let benefit = {}
+
+				for (let benefitObj of product.benefitDetails[benefitCategory]) {
+					if (benefitObj.benefitCodes.includes(benefit_code)) {
+						benefit = benefitObj
+						break
 					}
 				}
-			}
-			else {
-				result["benefit_covered"] = true
-			}
+				console.log(benefit);
+				if (Object.keys(benefit).length) {
+					benefit_result["benefit_covered"] = benefit.covered
+					benefit_result["benefit_name"] = benefit.benefitName
+					benefit_result["benefit_codes"] = benefit.benefitCodes
+								
+					if(benefit.covered && benefit.coveredIf.length) {
+						for (const rule of benefit.coveredIf) {
+							if (!(fhirpath.evaluate(input,rule.ruleCondition)[0])) {
+								benefit_result["benefit_covered"] = false
+								benefit_result["benefit_coverage_failed_rules"] ||= []
+								benefit_result["benefit_coverage_failed_rules"].push({
+									"code": rule.ruleCode,
+									"displayText": rule.ruleDisplayText
+								})
+							}
+						}
+					}
 
-			if (!result["benefit_waiting_period"])
-				result["benefit_waiting_period"] = defaultWaitingPeriod
+					if(!benefit.covered && benefit.excludedUnless.length) {
+						let exclusionFlag = false
+						let exclusionExceptions = []
+						for (const rule of benefit.excludedUnless) {
+							if (fhirpath.evaluate(input,rule.ruleCondition)[0]) {
+								exclusionExceptions.push({
+									"code": rule.ruleCode,
+									"displayText": rule.ruleDisplayText
+								})
+							}
+							else {
+								exclusionFlag = true
+								break
+							}
+						}
+						benefit_result["benefit_covered"] = !exclusionFlag
+						if (benefit_result["benefit_covered"] && exclusionExceptions.length)
+							benefit_result["benefit_exclusion_exceptions"] = exclusionExceptions
+					}
+
+					if (benefit_result["benefit_covered"]) {
+						for (let limit of benefit.limits) {
+							if (limit.limitCondition && fhirpath.evaluate(input, limit.limitCondition)[0]) {
+								let limitResult = fhirpath.evaluate(input, limit.limitAmountExpression)
+								if (limitResult.length)
+									benefit_result["limit_per_" + limit.limitType.toLowerCase()] = +limitResult[0]
+							}
+						}
 			
-			result["benefit_default_waiting_period_for_PEDs"] = defaultWaitingPeriodForPEDs
+						for (let waitingPeriodObj of benefit.waitingPeriods) {
+							if(waitingPeriodObj.waitingPeriodCondition && fhirpath.evaluate(input, waitingPeriodObj.waitingPeriodCondition)[0]) {
+								benefit_result["benefit_waiting_period"] = waitingPeriodObj.waitingPeriod
+							}
+						}
+					}
+				}
+				else {
+					benefit_result["benefit_covered"] = true
+				}
+
+				if (!benefit_result["benefit_waiting_period"])
+					benefit_result["benefit_waiting_period"] = defaultWaitingPeriod
+				
+				benefit_result["benefit_default_waiting_period_for_PEDs"] = defaultWaitingPeriodForPEDs
+				if(benefit_result["benefit_covered"])
+					total_benefits_covered++
+				else
+					total_benefits_excluded++
+				coverages.push(benefit_result);
+				console.log(coverages);
+			}
+			result["coverage_results"] = coverages
+			if(total_benefits == 1){
+				result = coverages[0];
+				result["coverage_results"] = []
+			}
+			result["total_benefits_covered"] = total_benefits_covered
+			result["total_benefits_excluded"] = total_benefits_excluded
+			result["total_benefits"] = total_benefits	
+			console.log(result);
 		}
 		else {
 			errors.push(`benefit_code is missing in the input`)
