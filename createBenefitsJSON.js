@@ -62,7 +62,8 @@ for (const benefitConfig of inputJSON) {
         limits: [],
         waitingPeriods: [],
         coveredIf: [],
-        excludedUnless: []
+        excludedUnless: [],
+        inputVariables: []
     }
     console.log(benefitConfig.Benefit_Name)
 
@@ -70,7 +71,9 @@ for (const benefitConfig of inputJSON) {
     benefit["benefitCodes"] = benefitConfig["Benefit_Codes"].toString().split(',')
     benefit["benefitName"] = benefitConfig["Benefit_Name"]
     benefit["covered"] = benefitConfig["CoveredYN"] == 'Y' ? true : false
-
+    if(benefitConfig["Input_Variables"]){
+        benefit["inputVariables"] = benefitConfig["Input_Variables"].toString().split(',')
+    }
     if(benefitConfig["Limits"]) {
         for (const limitStr of benefitConfig["Limits"].toString().split(',')) {
             let limit = {}

@@ -3,9 +3,11 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 
-const reassurePolicy = require("./pmlconf/ReAssure-2022-08-03-8.pml.json")
-const healthCompanionPolicy = require("./pmlconf/HealthCompanion-2022-08-03-4.pml.json")
-const heartBeatPolicy = require("./pmlconf/HeartBeat-2022-08-03-1.pml.json")
+const reassurePolicy = require("./pmlconf/ReAssure-2022-08-23-9.pml.json")
+const healthCompanionPolicy = require("./pmlconf/HealthCompanion-2022-08-23-5.pml.json")
+const heartBeatPolicy = require("./pmlconf/HeartBeat-2022-08-23-2.pml.json")
+
+const inputVariableDetails = require("./inputVariableDetails.json")
 
 const fhirpath = require('fhirpath')
 // For FHIR model data (choice type support) pull in the model file:
@@ -182,5 +184,77 @@ app.post('/findCoverage', (req, res) => {
     res.json(result)
 });
 
+app.post('/getInputVariables',(req,res) => {
+    const input = req.body
+    let product = products[input.product_code]
+    let benefitCategory = input.benefit_category || 'INPATIENT'
+    let inputBenefitCode = []
+    let result = []
+    let errors = []
+	console.log(input.benefit_codes)
+    if(Array.isArray(input.benefit_codes))
+		inputBenefitCode = input.benefit_codes
+	else
+		input.benefit_codes !== undefined?inputBenefitCode.push(input.benefit_codes):inputBenefitCode
+	console.log(inputBenefitCode)
+    let benefits = product.benefitDetails[benefitCategory]
+    if(product){
+        if(inputBenefitCode.length){
+			for(let benefitCode of inputBenefitCode){
+				let benefitInputVars = [],inputVars_result = []
+				let benefit_result = {}
+				let benefit = {}
+				for(let benefitObj of benefits){
+					if(benefitObj.benefitCodes.includes(benefitCode)){
+						benefit = benefitObj
+						break
+					}
+				}
+				console.log(benefit)
+				benefit_result["benefit_code"] = benefit.benefitCodes.join()
+				benefitInputVars = benefit.inputVariables
+				if(benefitInputVars.length){
+					for(let inputVar of benefitInputVars){
+						console.log(inputVar)
+						for(let inputdetail of inputVariableDetails){
+							if(inputdetail.name === inputVar){
+								inputVars_result.push(inputdetail)
+							}
+						}
+					}
+				}
+				benefit_result["input_variables"] = inputVars_result
+				result.push(benefit_result)
+			}
+        }
+        else{ 
+            for(let benefitObj of benefits){
+				let benefit_result = {}
+				let inputVars_result = []
+				let benefitInputVars = benefitObj.inputVariables
+				benefit_result["benefit_code"] = benefitObj.benefitCodes.join()
+				if(benefitInputVars.length){
+					for(let inputVar of benefitInputVars){
+						for(let inputdetail of inputVariableDetails){
+							if(inputdetail.name === inputVar){
+								inputVars_result.push(inputdetail)
+							}
+						}
+					}
+					benefit_result["input_variables"] = inputVars_result
+					result.push(benefit_result)
+				}				
+			}
+        }
+    }
+    else{
+        errors.push(`Product not found for product_code: ${input.product_code}`)
+    }
+    if (errors.length) {
+		res.status = 500
+		result["errors"] = errors
+	}
+    res.json(result)
+});
 // Server Setup
 app.listen(PORT,console.log(`Server started on port ${PORT}`))
