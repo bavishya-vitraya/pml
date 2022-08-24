@@ -86,7 +86,6 @@ app.post('/findCoverage', (req, res) => {
 						break
 					}
 				}
-				console.log(benefit);
 			
 				if (Object.keys(benefit).length) {
 					benefit_result["benefit_covered"] = benefit.covered
@@ -191,12 +190,11 @@ app.post('/getInputVariables',(req,res) => {
     let inputBenefitCode = []
     let result = []
     let errors = []
-	console.log(input.benefit_codes)
     if(Array.isArray(input.benefit_codes))
 		inputBenefitCode = input.benefit_codes
 	else
 		input.benefit_codes !== undefined?inputBenefitCode.push(input.benefit_codes):inputBenefitCode
-	console.log(inputBenefitCode)
+
     let benefits = product.benefitDetails[benefitCategory]
     if(product){
         if(inputBenefitCode.length){
@@ -210,12 +208,10 @@ app.post('/getInputVariables',(req,res) => {
 						break
 					}
 				}
-				console.log(benefit)
 				benefit_result["benefit_code"] = benefit.benefitCodes.join()
 				benefitInputVars = benefit.inputVariables
 				if(benefitInputVars.length){
 					for(let inputVar of benefitInputVars){
-						console.log(inputVar)
 						for(let inputdetail of inputVariableDetails){
 							if(inputdetail.name === inputVar){
 								inputVars_result.push(inputdetail)
