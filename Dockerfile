@@ -12,6 +12,8 @@ RUN npm install --production
 
 COPY ["app.js", "./"]
 
+COPY ["inputVariableDetails.json", "./"]
+
 COPY ["pmlconf/", "./pmlconf/"]
 
 EXPOSE 6001
