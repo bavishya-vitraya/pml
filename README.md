@@ -1,2 +1,3 @@
 # pml-service
 Backend for PML service and rules engine
+Token for registering user - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidml0cmF5YVVzZXIiLCJvcmciOiJ2aXRyYXlhIiwiaWF0IjoxNjY0NDY0MjU4fQ.ohxOkc_NTCGKWQZImPNvp2vtbbQvbcXUHkx6ZoiG2I0

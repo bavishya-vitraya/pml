@@ -1,95 +1,101 @@
 [
-    {
-      "name": "claim_days_of_hositalization",
-      "type": "Number",
-      "description": "Number of hospitalization days"
-    },
-    {
-      "name": "claim_hospital_in_network",
-      "type": "String",
-      "description": "Hospital that comes under network or not",
-      "allowed_values": ["Y","N"]
-    },
-    {
-      "name": "claim_room_type",
-      "type": "String",
-      "description": "Type of the hospitalized room",
-      "allowed_values": ["SHARED","SUITE"]
-    },
-    {
-      "name": "claim_submission_type",
-      "type": "String",
-      "description": "Type of the claim sunmission",
-      "allowed_values": ["CASHLESS","REIMBURSEMENT"]
-    },
-    {
-      "name": "patient_age",
-      "type": "Number",
-      "description": "Age of the patient"
-    },
-    {
-      "name": "patient_days_of_hospitalization_during_policy_year",
-      "type": "Number",
-      "description": "Number of hospitalization days during the policy period"
+  {
+    "name": "claim_days_of_hositalization",
+    "type": "Number",
+    "description": "Number of hospitalization days"
+  },
+  {
+    "name": "claim_hospital_in_network",
+    "type": "String",
+    "description": "Hospital that comes under network or not",
+    "allowed_values": ["Y","N"]
+  },
+  {
+    "name": "claim_room_type",
+    "type": "String",
+    "description": "Type of the hospitalized room",
+    "allowed_values": ["SHARED","SUITE"]
+  },
+  {
+    "name": "claim_submission_type",
+    "type": "String",
+    "description": "Type of the claim submission",
+    "allowed_values": ["CASHLESS","REIMBURSEMENT"]
+  },
+  {
+    "name": "patient_age",
+    "type": "Number",
+    "description": "Age of the patient"
+  },
+  {
+    "name": "patient_days_of_hospitalization_during_policy_year",
+    "type": "Number",
+    "description": "Number of hospitalization days during the policy period"
 
-    },
-    {
-      "name": "patient_number_of_pregnancies_or_terminations",
-      "type": "Number",
-      "description": "Number of times of pregnancy or terminationations"
-    },
-    {
-      "name": "patient_number_of_times_benefit_claimed",
-      "type": "Number",
-      "description": "Number of times the patient has claimed the benefit"
-    },
-    {
-      "name": "personal_accident_cover_sum_insured",
-      "type": "Number",
-      "description": "Insurance coverage amount for personal accident"
-    },
-    {
-      "name": "policy_balance_sum_insured",
-      "type": "Number",
-      "description": "Insurance coverage's balance amount"
-    },
-    {
-      "name": "policy_base_sum_insured",
-      "type": "Number",
-      "description": "Base Amount of Insurance coverage"
-    },
-    {
-      "name": "policy_coverage_type",
+  },
+  {
+    "name": "patient_number_of_pregnancies_or_terminations",
+    "type": "Number",
+    "description": "Number of times of pregnancy or terminationations"
+  },
+  {
+    "name": "patient_number_of_times_benefit_claimed",
+    "type": "Number",
+    "description": "Number of times the patient has claimed the benefit"
+  },
+  {
+    "name": "personal_accident_cover_sum_insured",
+    "type": "Number",
+    "description": "Insurance coverage amount for personal accident"
+  },
+  {
+    "name": "policy_balance_sum_insured",
+    "type": "Number",
+    "description": "Insurance coverage's balance amount"
+  },
+  {
+    "name": "policy_base_sum_insured",
+    "type": "Number",
+    "description": "Base Amount of Insurance coverage"
+  },
+  {
+    "name": "policy_coverage_type",
+    "type": "String",
+    "description": "Type of the policy coverage plan",
+    "allowed_values": ["FAMILY FLOATER","FAMILY FIRST"]
+  },
+  {
+    "name": "policy_critical_illness_sum_insured",
+    "type": "Number",
+    "description": "Insurance coverage amount for critical illness"
+  },
+  {
+    "name": "policy_enhancement_type",
+    "type": "String",
+    "description": "Type of the policy enhancement",
+    "allowed_values": ["SAFEGUARD","CRITICAL_ILLNESS_COVER"]
+  },
+  {
+    "name": "policy_personal_accident_cover_sum_insured",
+    "type": "Number",
+    "description": "Insurance coverage amount for personal accident"
+  },
+  {
+    "name": "policy_variant_type",
+    "type": "String",
+    "description": "Type of the policy variant",
+    "allowed_values": ["GOLD","PLATINUM","SILVER"]
+  },
+  {
+    "name": "reason_for_hospitalization",
+    "type": "String",
+    "description": "Cause for the hospitalization",
+    "allowed_values": ["ACCIDENT","ILLNESS"]
+  },
+  {
+      "name": "claim_government_registered_ayush_hospital",
       "type": "String",
-      "description": "Type of the policy coverage plan",
-      "allowed_values": ["FAMILY FLOATER","FAMILY FIRST"]
-    },
-    {
-      "name": "policy_critical_illness_sum_insured",
-      "type": "Number",
-      "description": "Insurance coverage amount for critical illness"
-    },
-    {
-      "name": "policy_enhancement_type",
-      "type": "String",
-      "description": "Type of the policy enhancement",
-      "allowed_values": ["SAFEGUARD","CRITICAL_ILLNESS_COVER"]
-    },
-    {
-      "name": "policy_personal_accident_cover_sum_insured",
-      "type": "Number",
-      "description": "Insurance coverage amount for personal accident"
-    },
-    {
-      "name": "policy_variant_type",
-      "type": "String",
-      "description": "Type of the policy variant",
-      "allowed_values": ["GOLD","PLATINUM","SILVER"]
-    },
-    {
-      "name": "reason_for_hospitalization",
-      "type": "String",
-      "description": "Cause for the hospitalization",
-      "allowed_values": ["ACCIDENT","ILLNESS"]
-    }
-  ]
+      "description": "Hospital registered under government or not",
+      "allowed_values": ["Y","N"]
+  }
+]
